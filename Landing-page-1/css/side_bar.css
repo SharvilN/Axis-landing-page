@@ -1,45 +1,24 @@
 body,html{
     height: 100%;
-    background-image: url("stars.jpg");
-    background-repeat: no-repeat;
+    /*background-image: url("../images/stars.jpg");*/       /* Covered in slider */
+    /*background-repeat: no-repeat;*/
     background-size: cover;
   }
-/* For the nav bar */
-.abc {
-    list-style-type: none;
-    margin: 30;
-    padding: 0;
-    overflow: hidden;
-    margin-left:900px;
-	float:right;
-}
-
-.abc li {
-    float: left;
-}
-
-.abc li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding-left:16px;
-	padding-right:16px;
-    text-decoration: none;
-
-}
-
-.abc li a:hover {
-    
-}
-/* end hor bar */
   nav.sidebar, .main{
     -webkit-transition: margin 400ms ease-out;
       -moz-transition: margin 400ms ease-out;
       -o-transition: margin 400ms ease-out;
       transition: margin 400ms ease-out;
   }
-  body {overflow: hidden; }
-  div.wrap {height:100%; overflow:hidden;}
+  /*body {overflow: hidden; }*/       /* It is making slider invisible. Abhi*/
+  div.wrap {
+    position: absolute;
+    /*height:90%;*/
+    /*overflow:hidden;*/
+    top: 20%;
+    z-index: 100;
+  }
+
   .main{
     padding: 10px 10px 0 10px;
   }
@@ -144,7 +123,6 @@ body,html{
    margin-top: 10%;
    background: transparent;
    border-color: transparent;
-   font-family: 'Roboto Slab', serif;
 }
 
 .navbar li { color: #000 }
@@ -366,4 +344,3 @@ body,html{
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
 }
-
