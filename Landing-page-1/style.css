@@ -119,7 +119,7 @@ body,html{
    font-family: 'Roboto Slab', serif;
 }
 
-.navbar li { color: #000 }
+.navbar li { color: #111 }
 
 .navbar-nav > li > a {
     padding-top: 10px;
@@ -127,7 +127,7 @@ body,html{
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-    color: #fff;
+    color: #eff;
     background-color: transparent;
     background: transparent;
 
